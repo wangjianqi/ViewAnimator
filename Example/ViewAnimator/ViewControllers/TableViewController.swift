@@ -13,6 +13,7 @@ class TableViewController: UITableViewController {
 
     private var items = [Any?]()
     private let activityIndicator = UIActivityIndicatorView(style: .gray)
+    ///位置动画
     private let animations = [AnimationType.from(direction: .bottom, offset: 30.0)]
 
     override func viewDidLoad() {
@@ -49,12 +50,14 @@ class TableViewController: UITableViewController {
         items = Array(repeating: nil, count: 20)
         tableView.reloadData()
         UIView.animate(views: tableView.visibleCells, animations: animations, completion: {
+            ///动画完成
             sender.isEnabled = true
         })
     }
 
     @IBAction func resetTapped(_ sender: UIBarButtonItem) {
         items.removeAll()
+        ///反转动画
         UIView.animate(views: tableView.visibleCells, animations: animations, reversed: true,
                        initialAlpha: 1.0, finalAlpha: 0.0, completion: {
             self.tableView.reloadData()

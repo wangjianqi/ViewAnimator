@@ -336,18 +336,18 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 8PC4X7QUY9;
+						DevelopmentTeam = ST3CBTB2CL;
 						LastSwiftMigration = 1000;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 8PC4X7QUY9;
+						DevelopmentTeam = ST3CBTB2CL;
 						LastSwiftMigration = 1000;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 					FBFFC9B120950FEB00DFF96B = {
 						CreatedOnToolsVersion = 9.3;
-						DevelopmentTeam = 8PC4X7QUY9;
+						DevelopmentTeam = ST3CBTB2CL;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -673,7 +673,7 @@
 			baseConfigurationReference = 693B8CAD1F053E1C0C88C3FF /* Pods-ViewAnimator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8PC4X7QUY9;
+				DEVELOPMENT_TEAM = ST3CBTB2CL;
 				INFOPLIST_FILE = ViewAnimator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -688,7 +688,7 @@
 			baseConfigurationReference = 45628CDF88B6B241FD307F13 /* Pods-ViewAnimator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8PC4X7QUY9;
+				DEVELOPMENT_TEAM = ST3CBTB2CL;
 				INFOPLIST_FILE = ViewAnimator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -702,7 +702,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D3F4596F21D3A9BA6B75C98 /* Pods-ViewAnimator_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 8PC4X7QUY9;
+				DEVELOPMENT_TEAM = ST3CBTB2CL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -724,7 +724,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0288BA4824DA606EF78ECED /* Pods-ViewAnimator_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 8PC4X7QUY9;
+				DEVELOPMENT_TEAM = ST3CBTB2CL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -752,7 +752,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 8PC4X7QUY9;
+				DEVELOPMENT_TEAM = ST3CBTB2CL;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ViewAnimatorTVOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -779,7 +779,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8PC4X7QUY9;
+				DEVELOPMENT_TEAM = ST3CBTB2CL;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ViewAnimatorTVOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

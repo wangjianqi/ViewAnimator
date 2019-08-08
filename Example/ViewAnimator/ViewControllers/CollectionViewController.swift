@@ -29,6 +29,7 @@ class CollectionViewController: UIViewController {
         activityIndicator.stopAnimating()
         items = Array(repeating: nil, count: 5)
         collectionView?.reloadData()
+        ///刷新
         collectionView?.performBatchUpdates({
             UIView.animate(views: self.collectionView!.orderedVisibleCells,
                 animations: animations, completion: {
