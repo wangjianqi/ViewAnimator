@@ -81,7 +81,7 @@ public extension UIView {
                         initialSpringVelocity velocity: CGFloat = ViewAnimatorConfig.initialSpringVelocity,
                         options: UIView.AnimationOptions = [],
                         completion: (() -> Void)? = nil) {
-
+        ///view
         guard views.count > 0 else {
             completion?()
             return
@@ -91,6 +91,7 @@ public extension UIView {
         let dispatchGroup = DispatchGroup()
         for _ in 1...views.count { dispatchGroup.enter() }
         DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
+            ///遍历
             for (index, view) in views.enumerated() {
                 view.alpha = initialAlpha
                 view.animate(animations: animations,
@@ -102,10 +103,14 @@ public extension UIView {
                              usingSpringWithDamping: dampingRatio,
                              initialSpringVelocity: velocity,
                              options: options,
-                             completion: { dispatchGroup.leave() })
+                             completion: {
+                                ///leave
+                                dispatchGroup.leave()
+                                
+                })
             }
         }
-        
+        ///完成
         dispatchGroup.notify(queue: .main) {
             completion?()
         }
